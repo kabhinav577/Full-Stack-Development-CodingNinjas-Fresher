@@ -1,0 +1,22 @@
+
+ 
+
+body {
+    background-image: url("back-image.jpg") !important;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover !important;
+}
+
+header h1 {
+    line-height: 40vw;
+    z-index: 10;
+}
+
+main .card {
+    min-height: 350px;
+}
+
+main .card p {
+    min-height: 250px;
+}

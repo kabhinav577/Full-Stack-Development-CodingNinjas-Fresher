@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            text-align:  center;
+        }
+        .container{
+            width: 100%;
+            display: flex;
+        }
+        .div1 {
+            background-color: #ff8989;
+            width: 32%;
+            margin: 0.4%;
+            height: 300px;
+        }
+        .div2 {
+            background-color: #88f7ce;
+            width: 32%;
+            margin: 0.4%;
+            height: 300px;
+        }
+        .div3 {
+            background-color: #e29df2;
+            width: 32%;
+            margin: 0.4%;
+            height: 300px;
+        }
+        @media (max-width: 600px) {
+            .container {
+                flex-direction: column;
+            }
+            .div1 {
+                width: 95%;
+            margin: 1px !important;
+            }
+            .div2 {
+                width: 95%;
+            margin: 1px !important;
+            }
+            .div3 {
+                width: 95%;
+            margin: 1px !important;
+            }
+        }
+    </style>
+</head>
+<body>
+    <Header><h1><u>Create Responsive Design</u></h1></Header>
+    <div class="container">
+        <div class="div1"></div>
+        <div class="div2"></div>
+        <div class="div3"></div>
+    </div>
+</body>
+</html>
